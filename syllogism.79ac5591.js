@@ -3,4 +3,4 @@ parcelRequire=function(e,r,n,t){var i="function"==typeof parcelRequire&&parcelRe
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var e=require("./utils"),t="所有的猫都有尾巴",n="橘猫是一只猫",l=document.getElementById("input1"),o=document.getElementById("input2");function i(){var t=l.value,n=o.value,i=(0,e.splitMajorPremise)(t),u=(0,e.splitMinorPremise)(n),s=u[0],r=i[1],c=u[2];console.log(s,r),(0,e.isABelongsToB)(c,r)&&(console.log(s,i[3]),document.getElementById("result").innerHTML=s+i[3])}l.value=t,o.value=n,document.getElementById("begin").onclick=i;
 },{"./utils":"FO+Z"}]},{},["Focm"], null)
-//# sourceMappingURL=syllogism/syllogism.79ac5591.map
+//# sourceMappingURL=/syllogism/syllogism.79ac5591.map
